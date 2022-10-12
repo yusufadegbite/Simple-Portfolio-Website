@@ -1,0 +1,527 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    background-attachment: fixed;
+    background: #fff;
+    margin: 0;
+    font-family: Verdana,Sans-Serif;
+    height: 100%;
+}
+
+
+
+
+.nav-bar {
+    background: white;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+label.logo {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 40px;
+    color: rgba(35, 81, 220, 1);
+    ;
+}
+
+
+.link {
+    display: flex;
+}
+
+.link a {
+    padding: 0 1em;
+    line-height: 2em;
+    color: #000;
+}
+
+.link a:hover {
+    background: none;
+    transition: 0.5s;
+    color: #0082e6;
+}
+
+.mobile-link {
+    display: none;
+}
+
+.intro-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5em 0 0 0;
+    font-size: large;
+}
+
+.intro {
+    text-align: left;
+    margin: 1.5em 0 0 0;
+}
+
+.intro p {
+    font-size: 2rem;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    padding: 1rem 0 0 0;
+}
+
+.intro h5 {
+    padding: 0.5rem 0 0 0;
+}
+
+#resume {
+    width: 120px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Courier New;
+    margin: 1.5em 0 0 0;
+    color: white;
+    background: rgba(35, 81, 220, 1);
+    height: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+    opacity: 7;
+    border: 0;
+    box-shadow: 0 0 5px #000;
+    transition: all 200ms ease-in;
+    outline: 0;
+}
+
+#resume a {
+    text-decoration: none;
+    color: white;
+}
+
+#resume a:hover {
+    transform: scale(1.4);
+    outline: none;
+}
+
+.me {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    box-shadow: 0 0 10px #000;
+    float: center;
+    margin-top: 0.5em;
+}
+
+.about-div {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    padding-left: 19px;
+    font-family: Verdana;
+    line-height: 35px;
+    margin: 5em 0 0 0;
+}
+
+.about-div span {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about-div p {
+    padding: 1em 2em;
+}
+
+
+.more {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4em 0 0 0;
+}
+
+div.service {
+    font-family: Courier;
+    line-height: 27px;
+    padding: 1rem 1rem;
+    border: 0px solid #000000;
+    color: white;
+    background-color: rgba(35, 81, 220, 1);
+    ;
+    width: 20%;
+    box-shadow: 0 0 5px #000;
+    transition: auto 200ms ease;
+    opacity: 5;
+    height: auto;
+    justify-self: center;
+    margin-right: 0;
+    font-size: 1rem;
+
+}
+
+.service-header {
+    font-size: 1.2rem;
+    font-family: Comic Sans MS;
+    text-align: center;
+    padding: 0 0 0.5rem 0;
+}
+
+.service-p {
+    padding: 0 0 0 4em;
+    text-decoration: dotted;
+}
+
+.contact-div {
+    text-align: center;
+}
+
+.contact {
+    width: 220px;
+    border-radius: 30px;
+    font-size: 28px;
+    font-family: Courier New;
+    margin: 2em 0 0 0;
+    color: white;
+    background: rgba(35, 81, 220, 1);
+    ;
+    height: 3.5rem;
+    font-weight: 300;
+    text-align: center;
+    opacity: 7;
+    border: 0;
+    box-shadow: 0 0 5px #000;
+    transition: all 200ms ease-in;
+    outline: 0;
+}
+
+.contact a {
+      text-decoration: none;
+    color: white;
+
+}
+
+.contact a:hover {
+    transform: scale(1.4);
+    outline: none;
+}
+
+
+.footer {
+    height: 10rem;
+    color: #DDC6F9;
+    width: 100%;
+    background: black;
+    margin: 4em 0 0 0;
+    padding: 2em 0 0 0;
+    text-align: center;
+}
+
+
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 3rem;
+}
+
+.center a {
+    background: #f5f6fa;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin: 4px;
+    text-align: center;
+    box-shadow: 0.5px 1.5px 1px 1px #dcdde1;
+    line-height: px;
+    font-size: 26px;
+    padding-top: 8.4px;
+    color: rgba(35, 81, 220, 1);
+
+}
+
+.center a i {
+    transition: all 0.1s linear;
+}
+
+.center a:hover i {
+    transform: scale(1.1);
+    background: none;
+}
+
+.right {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 20px;
+    font-family: Courier New;
+    font-size: 18px;
+    color: #C4C4C4;
+
+}
+
+fa-facebook {
+    color: #2F86FF;
+}
+
+fa-twitter {
+    color: #1075FF;
+}
+
+fa-whatsapp {
+    color: #0BBC0C;
+}
+fa-github {
+    color: black;
+}
+
+
+.reg {
+    background-color: white;
+    margin: 3em 0 7em 0;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.reg input {
+    margin-top: 2em;
+    width: 250px;
+    height: 37px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.regbtn {
+    background-color: rgba(35, 81, 220, 1);
+    color: white;
+    margin-top: 3em;
+    margin-right: 25px;
+    margin-left: 30px;
+    border: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 250px;
+    opacity: 2;
+    height: 37px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.p {
+    color: #2A2A2A;
+    font-size: 15px;
+    font-family: Sans-Serif;
+    line-height: 28px;
+    font-weight: 150;
+    text-align: center;
+
+}
+
+#tem {
+    color: #FF6665;
+    font-size: 16px;
+    text-decoration: none;
+}
+#gender {
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 25px;
+    width: 250px;
+    height: 37px;
+    font-weight: 500;
+    padding-right: 25px;
+    background: white;
+}
+
+.regwelcome {
+    text-align: center;
+    font-size: 35px;
+    color: #320058;
+    padding-top: 3em;
+}
+
+form label {
+    font-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#message {
+   height: 10rem;
+   text-align: left;
+   padding: 7px;
+   padding-bottom: 130px;
+}
+
+.hamburger {
+    display: none;
+    margin: 0.6rem 0 0 0;
+    background: none;
+    border: none;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+.project-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2em 0 0 0;
+}
+
+.projects {
+    margin: 5em 0 0 0;
+}
+
+.projects h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.project img {
+    width: 100%;
+    height: 50%;
+}
+
+.project {
+    border-radius: 0;
+    box-shadow: 0 0 3px #000;
+    width: 25%;
+    padding: 1rem;
+}
+
+.project h3 {
+    padding: 1.5rem 0 0 0;
+}
+
+.project p {
+    padding: 0.5rem 2rem 0 0;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .intro-div {
+        justify-content: center;
+        flex-direction: column-reverse;
+        
+    }
+
+    .link {
+        display: none;
+    } 
+
+    .intro, .pic {
+        text-align: center;
+    }
+
+    .more {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    div.service {
+        width: 50%;
+        margin: 0 0 2em 25%;
+    }
+
+    
+/* Hamburger Menu */
+.hamburger {
+    display: block;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    transition: all 0.25s;
+  }
+  
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: black;
+    transform: rotate(0);
+    transition: all 0.5s;
+  }
+  
+  .hamburger-middle {
+    transform: translateY(7px);
+  }
+  
+  .hamburger-bottom {
+    transform: translateY(14px);
+  }
+  
+  .open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+  }
+  
+  .open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+  }
+
+  .open .hamburger-middle {
+    display: none;
+  }
+  
+  .open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+  }
+
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px #000;
+    background: white;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: 2em 15%;
+    padding: 1em 0;
+    transition: all 0.5s;
+}
+
+ .mobile-link a {
+    padding: 1rem 0 0 0;
+    color: #000;
+}
+
+.mobile-link a:hover {
+    background: none;
+    transition: 0.5s;
+    color: #0082e6;
+}
+
+.project-div {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15%;
+}
+
+.project {
+   width: 100%;
+   margin: 0 0 2em 0;
+}
+
+.projects h2 {
+    padding: 0 0 2em 0;
+}
+    
+}
